@@ -1,0 +1,102 @@
+body,html{
+    height: 100%;
+    margin:0;
+}
+.container{
+    width: 100%;
+    height: 100%;
+    background: #EEAECA;
+    background: radial-gradient(circle, rgba(238, 174, 202, 1) 0%, rgba(148, 187, 233, 1) 100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.card{
+    height: 475px;
+    width: 320px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+    align-items: center;
+    gap:20px;
+}
+.card img{
+    width: 100%;
+    height: 30%;
+    border-top-right-radius: 20px;
+    border-top-left-radius:20px ; 
+
+}
+.textbox{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    gap:8px;
+    text-align: center;
+    width: 88%;
+    justify-content: center;
+}
+.textbox h2, p{
+    margin:0;
+}
+.textbox p{
+    margin-top: 0;
+    padding:0 10px;
+    width: 90%;
+}
+.amountbox{
+    width: 80%;
+    height: 60px;
+    background: #EEAECA;
+    background: radial-gradient(circle, rgba(238, 174, 202, 1) 0%, rgba(148, 187, 233, 1) 100%);
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 15px;
+
+}
+.leftbox{
+   display: flex;
+   gap:12px;
+   align-items: center;
+}
+.leftbox img{
+    width: 42px;
+    height: 42px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.leftbox p{
+    font-size: 14px;
+    color: black;
+    font-weight: bold;
+}
+.rightbox a{
+  font-size: 13px;
+  font-weight: bold;
+  text-decoration: underline;
+  margin: 0;
+  padding: 10px;
+  color: black;
+}
+#paymentbutton{
+    width: 80%;
+    height: 8%;
+   background: #f5abdc;
+    color: rgb(10, 10, 10);
+    border-radius: 10px;
+    border-style: none;
+    font-style: italic;
+    font-weight: bold;
+    font-size: medium;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+.cancel a{
+  text-decoration: none;
+  color:black;
+  font-style:italic;
+  font-weight: bold;
+  font-size: larger;
+}
